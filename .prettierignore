@@ -1,0 +1,38 @@
+# Ignore documentation files and resources
+*.md
+*.txt
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore compiled and binary files
+target/
+bin/
+
+# Ignore Maven dependencies
+node_modules/
+.idea/
+out/
+*.iml
+
+# Ignore configuration files
+*.log
+*.properties
+*.yml
+*.xml
+
+# Ignore Git-related files
+.git/
+.gitignore
+*.lock
+.DS_Store
+
+# Ignore generated Java files and build artifacts
+**/Generated*.java
+**/build/**
+**/dist/**
+
+# Ignore test reports and logs
+**/test-output/
+**/logs/
